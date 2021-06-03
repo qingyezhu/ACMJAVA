@@ -6,5 +6,7 @@ package com.wangzhu;
 public class Test {
     public static void main(String[] args) {
         System.out.println("测试，hello");
+        String str = "春去春又回";
+        System.out.println(str + "--" + System.currentTimeMillis());
     }
 }
